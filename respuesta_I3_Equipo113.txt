@@ -13,3 +13,19 @@ git merge "nombre de la rama"//combino la rama
 git commit -m "" 
 git status
 git push
+
+Responde GAMMA: Juan Santoliquido
+d-¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
+Si, solo lo que se subio en cada rama
+
+e-¿Detalle (explique) los problemas que tuvieron al hacer el merge?
+Ninguno
+
+f-¿que debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido?
+git clone https://github.com/bruno8877/TP_SO_i3_Equipo_113
+cd TP_SO_i3_Equipo_113
+git checkout -b Lema origin/Lema
+git add .
+git commit -m "segundo"
+git push -u origin Lema
+
