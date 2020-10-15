@@ -22,3 +22,29 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 hora 17:40
+
+Santoliquido Juan
+
+eth0      Link encap:Ethernet  HWaddr 08:00:27:27:8a:88
+          inet addr:192.168.0.14  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: 2800:810:441:809e:a00:27ff:fe27:8a88/64 Scope:Global
+          inet6 addr: fe80::a00:27ff:fe27:8a88/64 Scope:Link
+          inet6 addr: 2800:810:441:809e::5/128 Scope:Global
+          inet6 addr: 2800:810:441:809e:9a5:e396:d24b:706a/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:179 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:212 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:20508 (20.5 KB)  TX bytes:19444 (19.4 KB)
+
+lo        Link encap:Local Loopback
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:432 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:432 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:35583 (35.5 KB)  TX bytes:35583 (35.5 KB)
+
+
+hora: 18:26
