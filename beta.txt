@@ -1,0 +1,72 @@
+Lema Bruno
+
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.40  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 2800:810:489:928:b194:aa02:c410:93b4  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::5e61:93d3:3041:3c0b  prefixlen 64  scopeid 0x20<link>
+        inet6 2800:810:489:928::1002  prefixlen 128  scopeid 0x0<global>
+        inet6 2800:810:489:928:1534:b51f:eb1d:76dd  prefixlen 64  scopeid 0x0<global>
+        ether 08:00:27:27:b5:56  txqueuelen 1000  (Ethernet)
+        RX packets 115965  bytes 173960993 (173.9 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 16366  bytes 1457318 (1.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 177  bytes 15873 (15.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 177  bytes 15873 (15.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+hora 17:40
+
+Santoliquido Juan
+
+eth0      Link encap:Ethernet  HWaddr 08:00:27:27:8a:88
+          inet addr:192.168.0.14  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: 2800:810:441:809e:a00:27ff:fe27:8a88/64 Scope:Global
+          inet6 addr: fe80::a00:27ff:fe27:8a88/64 Scope:Link
+          inet6 addr: 2800:810:441:809e::5/128 Scope:Global
+          inet6 addr: 2800:810:441:809e:9a5:e396:d24b:706a/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:179 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:212 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:20508 (20.5 KB)  TX bytes:19444 (19.4 KB)
+
+lo        Link encap:Local Loopback
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:432 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:432 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:35583 (35.5 KB)  TX bytes:35583 (35.5 KB)
+
+
+hora: 18:26
+
+Luana Jaimez
+
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::a844:bf3c:c1b1:dfd4  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:12:b5:8a  txqueuelen 1000  (Ethernet)
+        RX packets 5836  bytes 5828496 (5.8 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1568  bytes 103046 (103.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 150  bytes 12490 (12.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 150  bytes 12490 (12.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+hora 19:00
