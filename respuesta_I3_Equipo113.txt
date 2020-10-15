@@ -1,0 +1,15 @@
+Responde BETA: Bruno Lema
+a-¿Como queda El master después de estos cambios?
+El master queda con todos los cambios realizados en las ramas(branch) haciendo el merge.
+
+b-¿Beta pudo ver todos los cambios que se realizaron?
+Pude ver todos los cambios si entraba a los branch.
+
+c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
+git clone "link"
+git checkout main//voy a la rama principal
+git branch//verifico en que rama estoy
+git merge "nombre de la rama"//combino la rama
+git commit -m "" 
+git status
+git push
