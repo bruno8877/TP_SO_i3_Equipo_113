@@ -14,6 +14,7 @@ git commit -m ""
 git status
 git push
 
+
 Responde GAMMA: Juan Santoliquido
 d-¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
 Si, solo lo que se subio en cada rama
@@ -29,3 +30,17 @@ git add .
 git commit -m "segundo"
 git push -u origin Lema
 
+
+Responde ALFA: Luana Jaimez
+G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
+git clone https://github.com/bruno8877/TP_SO_i3_Equipo_113.git
+cd TP_SO_i3_Equipo_113
+git branch -a
+git checkout -b Lema origin/Lema
+Agrego los datos pedidos al archivo beta.txt
+git status
+git add .
+git status
+git commit -m "respuestasAlfa"
+git status
+git push -u origin Lema
